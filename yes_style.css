@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e7e8e2;
+    font-family: 'Pinyon Script', cursive;
+}
+
+.container {
+    text-align: center;
+}
+
+.header_text {
+    font-size: 3em;
+    color: #940240;
+}
+
+.gif_container img {
+    width: 300%;
+    max-width: 800px;
+    height: auto;
+}
