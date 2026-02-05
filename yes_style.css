@@ -17,6 +17,11 @@ body {
     color: #940240;
 }
 
+.small_text {
+    font-size: 1.5em;
+    color: #010101;
+}
+
 .collage {
     position: relative;
     max-width: 800px;
