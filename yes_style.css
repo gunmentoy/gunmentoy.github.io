@@ -4,7 +4,6 @@ body {
   align-items: center;
   min-height: 100vh;
   margin: 0;
-  padding: 20px;
   background-color: #e7e8e2;
   font-family: 'Pinyon Script', cursive;
   overflow-x: hidden;
@@ -117,12 +116,10 @@ body {
 
   .header_text {
     font-size: 2em;
-    margin: 5px 0;
   }
 
   .small_text {
     font-size: 1.5em;
-    margin: 5px 0;
   }
 
   .collage {

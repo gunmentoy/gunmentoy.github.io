@@ -1,72 +1,72 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #e7e8e2;
-    font-family: 'Pinyon Script', cursive;
-    flex-direction: column;
-  }
-  
-  .container {
-    text-align: center;
-  }
-  
-  a {
-    font-size: 1.5em;
-    color: #940240;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #e7e8e2;
+  font-family: 'Pinyon Script', cursive;
+  flex-direction: column;
+}
 
-  h1 {
-    font-size: 4em;
-    color: #940240;
-  }
-  
-  .buttons {
-    margin-top: 50px;
-  }
-  
-  .yes-button {
-    font-size: 1.5em;
-    padding: 10px 20px;
-    margin-right: 10px;
-    background-color: #72ba74;
-    color: white;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .no-button {
-    font-size: 1.5em;
-    padding: 10px 20px;
-    background-color: #f2574c;
-    color: white;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .gif_container img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-    margin-top: 20px;
-  }
+.container {
+  text-align: center;
+}
 
-  #valentineGif {
-    cursor: pointer;
-    transition: transform 0.3s ease;
+a {
+  font-size: 1.5em;
+  color: #940240;
+}
+
+h1 {
+  font-size: 4em;
+  color: #940240;
+}
+
+.buttons {
+  margin-top: 50px;
+}
+
+.yes-button {
+  font-size: 1.5em;
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: #72ba74;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.no-button {
+  font-size: 1.5em;
+  padding: 10px 20px;
+  background-color: #f2574c;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.gif_container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+#valentineGif {
+  cursor: pointer;
+  transition: transform 0.3s ease;
 }
 
 #valentineGif:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .clickable-gif {
-    transition: transform 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .clickable-gif:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 15px rgba(255,0,0,0.5);
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
 }

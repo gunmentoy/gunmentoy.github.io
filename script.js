@@ -33,13 +33,13 @@ function handleYesClick() {
 }
 
 // Add this at the bottom of the file
-document.getElementById('valentineGif').addEventListener('click', function() {
-    valentineAudio.currentTime = 0;
-    valentineAudio.play();
-    
-    // Add temporary animation
-    this.style.transform = 'scale(1.1)';
-    setTimeout(() => {
-        this.style.transform = 'scale(1)';
-    }, 200);
+document.getElementById('valentineGif').addEventListener('click', function () {
+  valentineAudio.currentTime = 0;
+  valentineAudio.play();
+
+  // Add temporary animation
+  this.style.transform = 'scale(1.1)';
+  setTimeout(() => {
+    this.style.transform = 'scale(1)';
+  }, 200);
 });
