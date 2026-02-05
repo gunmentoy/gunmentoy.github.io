@@ -1,9 +1,10 @@
 body {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   min-height: 100vh;
   margin: 0;
+  padding: 40px 20px 20px 20px;
   background-color: #e7e8e2;
   font-family: 'Pinyon Script', cursive;
   overflow-x: hidden;
