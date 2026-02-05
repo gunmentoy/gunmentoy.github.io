@@ -130,64 +130,64 @@ body {
   }
 
   .collage {
-    height: 800px;
-    max-width: 100%;
+    height: 450px;
+    max-width: 90%;
     margin: 20px auto;
     padding: 10px;
   }
 
-  /* Vertical, less clustered layout for mobile */
+  /* Keep scrapbook overlap style but scaled for mobile */
   .photo-1 {
     width: 160px;
     height: 125px;
-    top: 0px;
-    left: 15px;
+    top: 20px;
+    left: 20px;
     transform: rotate(-5deg);
   }
 
   .photo-2 {
     width: 140px;
     height: 140px;
-    top: 80px;
-    right: 10px;
-    transform: rotate(6deg);
+    top: 35px;
+    right: 30px;
+    transform: rotate(8deg);
   }
 
   .photo-3 {
     width: 180px;
     height: 120px;
-    top: 220px;
-    left: 10px;
-    transform: rotate(-4deg);
+    top: 140px;
+    left: 80px;
+    transform: rotate(-3deg);
   }
 
   .photo-4 {
-    width: 140px;
-    height: 165px;
-    top: 330px;
-    right: 20px;
-    transform: rotate(7deg);
+    width: 130px;
+    height: 155px;
+    bottom: 90px;
+    left: 25px;
+    transform: rotate(6deg);
   }
 
   .photo-5 {
-    width: 165px;
-    height: 140px;
-    top: 530px;
-    left: 20px;
-    transform: rotate(-6deg);
+    width: 155px;
+    height: 130px;
+    bottom: 75px;
+    right: 40px;
+    transform: rotate(-7deg);
   }
 
   .photo-6 {
-    width: 130px;
-    height: 130px;
-    top: 640px;
-    right: 15px;
-    transform: rotate(5deg);
+    width: 120px;
+    height: 120px;
+    top: 240px;
+    right: 20px;
+    transform: rotate(4deg);
   }
 
   /* Reduce hover effect on mobile */
   .photo:hover {
-    transform: scale(1.05) rotate(0deg) !important;
+    transform: scale(1.05) !important;
   }
 }
 
@@ -201,43 +201,50 @@ body {
   }
 
   .collage {
-    height: 700px;
+    height: 400px;
+    max-width: 95%;
   }
 
-  /* Smaller sizes for very small screens */
+  /* Slightly smaller for very small screens */
   .photo-1 {
     width: 140px;
     height: 110px;
-    top: 0px;
+    top: 15px;
+    left: 15px;
   }
 
   .photo-2 {
     width: 120px;
     height: 120px;
-    top: 90px;
+    top: 30px;
+    right: 20px;
   }
 
   .photo-3 {
     width: 155px;
     height: 105px;
-    top: 200px;
+    top: 125px;
+    left: 65px;
   }
 
   .photo-4 {
-    width: 120px;
-    height: 145px;
-    top: 300px;
+    width: 110px;
+    height: 135px;
+    bottom: 80px;
+    left: 20px;
   }
 
   .photo-5 {
-    width: 145px;
-    height: 120px;
-    top: 460px;
+    width: 135px;
+    height: 110px;
+    bottom: 65px;
+    right: 30px;
   }
 
   .photo-6 {
-    width: 115px;
-    height: 115px;
-    top: 570px;
+    width: 105px;
+    height: 105px;
+    top: 210px;
+    right: 15px;
   }
 }
