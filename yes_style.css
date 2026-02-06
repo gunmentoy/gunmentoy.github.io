@@ -114,7 +114,7 @@ body {
   body {
     padding: 5px;
   }
-  
+
   .header_text {
     font-size: 2em;
   }
@@ -124,8 +124,8 @@ body {
   }
 
   .collage {
-    height: 450px;
-    max-width: 90%;
+    height: 550px;
+    max-width: 95%;
     margin: 20px auto;
     padding: 10px;
   }
