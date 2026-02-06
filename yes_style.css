@@ -180,4 +180,10 @@ body {
   .photo:hover {
     transform: scale(1.05) !important;
   }
+
+  .photo-3:hover {
+  transform: translate(-50%, -50%) rotate(-2deg) scale(1.1) !important;
+  z-index: 100 !important;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+}
 }
