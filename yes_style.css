@@ -29,6 +29,18 @@ body {
   margin: 25px 0 0 0;
 }
 
+.itinerary-button {
+  display: inline-block;
+  font-size: 1.5em;
+  color: #e7e8e2;
+  background-color: #940240;
+  padding: 12px 30px;
+  margin: 20px 0;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
 .collage {
   position: relative;
   max-width: 800px;
@@ -182,8 +194,8 @@ body {
   }
 
   .photo-3:hover {
-  transform: translate(-50%, -50%) rotate(-2deg) scale(1.1) !important;
-  z-index: 100 !important;
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
-}
+    transform: translate(-50%, -50%) rotate(-2deg) scale(1.1) !important;
+    z-index: 100 !important;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+  }
 }
