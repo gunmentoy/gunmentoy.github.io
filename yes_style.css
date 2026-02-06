@@ -132,26 +132,26 @@ body {
 
   /* Center photo-3 as focal point with others around it */
   .photo-1 {
-    width: 140px;
-    height: 110px;
-    top: 30px;
-    left: 15px;
+    width: 160px;
+    height: 125px;
+    top: 40px;
+    left: 20px;
     transform: rotate(-8deg);
     z-index: 4;
   }
 
   .photo-2 {
-    width: 125px;
-    height: 125px;
-    top: 25px;
-    right: 20px;
+    width: 145px;
+    height: 145px;
+    top: 35px;
+    right: 25px;
     transform: rotate(10deg);
     z-index: 5;
   }
 
   .photo-3 {
-    width: 190px;
-    height: 130px;
+    width: 210px;
+    height: 145px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(-2deg);
@@ -159,19 +159,19 @@ body {
   }
 
   .photo-4 {
-    width: 115px;
-    height: 140px;
-    bottom: 50px;
-    left: 20px;
+    width: 130px;
+    height: 155px;
+    bottom: 70px;
+    left: 25px;
     transform: rotate(5deg);
     z-index: 3;
   }
 
   .photo-5 {
-    width: 135px;
-    height: 115px;
-    bottom: 55px;
-    right: 25px;
+    width: 150px;
+    height: 130px;
+    bottom: 75px;
+    right: 30px;
     transform: rotate(-6deg);
     z-index: 6;
   }
